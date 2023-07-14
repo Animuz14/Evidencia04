@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesion</title>
+    <link rel="stylesheet" href="autenticacion.css">
+    <script type="module" src="firebaseconect.js"></script>
+    <script type="module" src="login.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="menu container">
+            <a href="#" class="logo">Menu</a>
+            <input type="checkbox" id="menu">
+            <label for="menu"><img class="menu-icono" src="image.png" alt=""></label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Balones de Oro</a></li>
+                    <li><a href="#">Equipos</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <div class="header-text">
+            <p>El máximo goleador de la historia</p>
+            <h1>Cristiano Ronaldo</h1>
+            <a href="#" class="btn-1">Mas Informacion</a>
+        </div>
+    </header>
+
+    <main class="services">
+        <div class="container">
+            <h2>Records</h2>
+            <p>A continuación, se listan todos los récords conseguidos por Cristiano Ronaldo</p>
+
+            <div class="group-services">
+                <div class="service">
+                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png" alt="" width="7%"> <!--Poner imagen-->
+                    <h3>Record 1</h3>
+                    <p>Máximo goleador de la historia según la FIFA (835 a nivel oficial).</p>
+                </div>
+                <div class="service">
+                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png" alt="" width="7%"> <!--Poner imagen-->
+                    <h3>Record 2</h3>
+                    <p>Uno de los tres jugadores en marcar más de 200 goles en dos décadas distintas del siglo xxi. Récord compartido con Ali Ashfaq y Zlatan Ibrahimović</p>
+                </div>
+                <div class="service">
+                    <img src="https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png" alt="" width="7%"> <!--Poner imagen-->
+                    <h3>Record 3</h3>
+                    <p>Máximo ganador del premio Goal 50 al mejor futbolista del mundo de la temporada: 5 veces (2008, 2012, 2014, 2016 y 2017). Récord mundial absoluto.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<section class="formulario-iniciosesion">
+    <h1>¡Bienvenido de nuevo!</h1>
+    <form id="formulario-sesion">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password"><br><br>
+        
+        <input type="submit" id="btn-login" value="Iniciar sesión">
+    </form>
+    <a href="signup.html">Crear una nueva cuenta</a>
+</section>
+</body>
